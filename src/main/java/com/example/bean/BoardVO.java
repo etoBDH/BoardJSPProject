@@ -7,6 +7,8 @@ public class BoardVO {
 	private String title;
 	private String writer;
 	private String content;
+	private String section;
+
 	private Date regdate;
 	private int cnt;
 	
@@ -34,6 +36,12 @@ public class BoardVO {
 	public void setContent(String content) {
 		this.content = content;
 	}
+	public String getSection() {
+		return section;
+	}
+	public void setSection(String section) {
+		this.section = section;
+	}
 	public Date getRegdate() {
 		return regdate;
 	}
@@ -46,4 +54,6 @@ public class BoardVO {
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
 	}
+
+
 }
